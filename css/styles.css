@@ -8,7 +8,9 @@ font-family: Roboto;
 p {
   color: #8f8f8f;
 }
-
+hr {
+  width: 400px;
+}
 .h3c {
   color: #e7305b;
 }
