@@ -35,6 +35,9 @@ p {
    font-weight: bold;
  }
 
+.reg {
+  background-color: #a6dcef;
+}
  .nav-item {
    padding: 0 18px;
  }
