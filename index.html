@@ -2,40 +2,36 @@
 <html lang="en" dir="ltr">
 
 <head>
+
   <meta charset="utf-8">
-  <title>Home</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-  <style media="screen">
-    body {
-      color: grey;
-      margin: 0;
-      text-align: center;
-      font-family: verdana;
-    }
+  <title>Github</title>
 
-    hr {
-      width: 400px;
-    }
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/reg.css">
 
-    .Janaka-img {
-      width: 15%;
-
-    }
-
-    .middle-container {
-      margin: 100px 0;
-    }
-  </style>
 </head>
 
-<body>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="Janaka-img" src="images/Janaka.png" alt="Janaka">
-      <h2>LISTEN & LEARN</h2>
-    </div>
-    <hr>
-    <a href="https://e1b1f4fca2a7.ngrok.io/" class="btn btn-lg btn-secondary" type="button"><i class="far fa-file-pdf"></i> Get started!</a>
+<body class="text-center">
+  <form action="/register" method="POST" class="form-signin">
+    <img class="mb-4" src="images/Janaka.png" alt="" width="172" height="172">
+    <h1 class="h3 mb-3 font-weight-normal">Sukhi hotu</h1>
+    <label for="inputUsername" class="sr-only">Listen</label>
+    <input type="text" name=username class="form-control" placeholder="Listen" required="" autofocus="" disabled>
+    <label for="inputPassword" class="sr-only">Learn</label>
+    <input type="password" name=password class="form-control" placeholder="Learn" required="" disabled>
+    <button class="btn btn-lg btn-outline-primary btn-block" type="submit">
+      <a href="https://92b39e2a0cb7.ngrok.io" style="text-decoration: none;">
+      Let's get started!
+    </a></button>
+    <p class="mt-5 mb-3 text-muted">Copyright © Bhikkhu Jānaka</p>
+  </form>
+
 </body>
+
 </html>
